@@ -12,7 +12,7 @@ const session = require('express-session');
 const bcrypt = require('bcryptjs')
 const app = express();
 app.use(express.static('public'));
-const PORT = 3000;
+const PORT = 4000;
 const mongoose = require('mongoose');
 mongoose.connect('mongodb+srv://113:113@website.rd8w5ia.mongodb.net/?retryWrites=true&w=majority')
 .then(() => console.log('Connected to MongoDB Atlas'))
